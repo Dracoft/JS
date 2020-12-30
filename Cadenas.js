@@ -1,11 +1,11 @@
-var texto = "Hola Mundo";
+var texto = "Hola Mundo.";
 alert ( texto.length ); //Longitud de caracteres
 
-var texto = "Hola Mundo";
+var texto = "Hola Mundo.";
 alert ( texto.toUpperCase() ); //Convertir a mayusculas
 
-var a1 = "Hola Mundo";
-var a2 = "hola mundo";
+var a1 = "Hola Mundo.";
+var a2 = "hola mundo.";
 
 if ( a1.toLowerCase() == a2.toLowerCase() ) {
   alert("Son iguales");
@@ -15,5 +15,8 @@ var frase = "Hola que hace dijo la cabra loca.";
 var posicion = frase.indexOf("cabra");//Buscar la posición
 
 if ( frase.indexOf("Trabajo") == -1 {
-    alert ("La palabra no se a encontrado");
+    alert ("La palabra no se a encontrado.");
     }
+var frase = "Aún otra frase.";//Partir la cadena
+
+var segmento = frase.slice(3,8);
